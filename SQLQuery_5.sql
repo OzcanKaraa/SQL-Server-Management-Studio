@@ -8,13 +8,13 @@ EXAMPLES
  -----------------------------------------------------------------------------------------------------------------------------
 
   --STOK MALIYETI HESAPLAMA
- SELECT (ProductName + 'Ürünün toplam stok maliyeti  = '+CONVERT(nvarchar (20), UnitPrice * UnitsInStock ))
+ SELECT (ProductName + 'ï¿½rï¿½nï¿½n toplam stok maliyeti  = '+CONVERT(nvarchar (20), UnitPrice * UnitsInStock ))
  AS 'Yeni Durum ' from 
  Products ORDER BY ProductName DESC 
 
 ------------------------------------------------------------------------------------------------------------------
 
- -- En yuksek fiyatli urun adi sorgu :
+ -- En yuksek fiyatli urun adi sorgu : ***********
  
 	SELECT TOP 1
 	[Order Details].ProductID,
@@ -37,7 +37,8 @@ EXAMPLES
 
 	------------------------------------------------------------------------------------------------------------------------------------------
 
-
+	--PRODUCT NAME SADECE ILK KARAKTERINI KUCUK HARF YAZDIRMA VE KUCULTME
+	Select ProductName,LOWER(SUBSTRING(ProductName,1,1)) + SUBSTRING(ProductName,2,LEN(ProductName)) from Products 
 
 
 

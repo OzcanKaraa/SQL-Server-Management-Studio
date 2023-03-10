@@ -1,4 +1,6 @@
-﻿LEN() 
+﻿--FONKSIYONLAR
+-----------------------------------------------------------------------------------------------------------
+LEN() 
 
 Bir string katarının uzunluğunu hesaplar ve geri döndürür.
 

@@ -1,10 +1,10 @@
-﻿--LEN KARAKTER SAYISI 
+﻿--LEN KARAKTER SAYISI  Bir string katarının uzunluğunu hesaplar ve geri döndürür.
 
 -- ProductName Karakter sayısı
  Select ProductName,LEN(ProductName) AS 'UZUNLUK' from Products
 
 ------------------------------------------------------------------------------------------------------------------------------
--- ProductName Karakter sayısı 10 DAN Kucuk olan kayitlar
+--LEN() ProductName Karakter sayısı 10 DAN Kucuk olan kayitlar
 
 Select ProductName,LEN(ProductName) AS 'UZUNLUK' from 
 Products WHERE LEN(ProductName) < 10 
