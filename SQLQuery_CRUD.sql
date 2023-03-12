@@ -7,6 +7,7 @@ KURAL :  INSERT INTO table_name  VALUES (val1, val2, val3, ...);
 
  ----------------------------------------------------------------------------------------------------------------------------------------------------
  --UPDATE : İlgili tablodaki verileri koşullar dahilinde güncellemek için kullanılır.
+ -- Alter ise VERI UZERINDE DEGISIKLIKLER GUNCELLEME
 
  KURAL :  UPDATE table_name  SET col1 = val1, col2 = val2, ...  WHERE condition
 
@@ -29,6 +30,12 @@ KURAL :  DELETE FROM table_name WHERE condition;
  DELETE FROM Customers  WHERE City ='Istanbul'
  DELETE FROM Products_New2 WHERE SupplierID=1
 -------------------------------------------------------------------------------------------------------------------------------------------------
+CREATE : OLUSTURMAK
+
+CREATE DATABASE University;
+CREATE TABLE Students (COLUMN_NAME DATATYPES[,....]);
+CREATE VIEW for_Students;
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 --Hesap Makinesi ISLEMLERI 
 
  select 50*90/100  
