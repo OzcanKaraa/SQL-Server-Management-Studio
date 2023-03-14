@@ -1,0 +1,10 @@
+insert into datRoom (RoomName, RoomCapasity, RoomStatus) values ('Subin', 12, 'M');
+insert into datRoom (RoomName, RoomCapasity, RoomStatus) values ('Kanlam', 10, 'F');
+insert into datRoom (RoomName, RoomCapasity, RoomStatus) values ('Andalax', 6, 'M');
+insert into datRoom (RoomName, RoomCapasity, RoomStatus) values ('Otcom', 15, 'F');
+insert into datRoom (RoomName, RoomCapasity, RoomStatus) values ('Viva', 2, 'F');
+insert into datRoom (RoomName, RoomCapasity, RoomStatus) values ('Sub-Ex', 23, 'M');
+insert into datRoom (RoomName, RoomCapasity, RoomStatus) values ('Temp', 11, 'M');
+insert into datRoom (RoomName, RoomCapasity, RoomStatus) values ('Transcof', 22, 'M');
+insert into datRoom (RoomName, RoomCapasity, RoomStatus) values ('Matsoft', 12, 'F');
+insert into datRoom (RoomName, RoomCapasity, RoomStatus) values ('Fix San', 16, 'M');
