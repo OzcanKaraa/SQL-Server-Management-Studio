@@ -1,1 +1,1 @@
-# SQL-Server-Management-Studio
+# Sql Komutlar
